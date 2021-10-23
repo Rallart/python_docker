@@ -1,11 +1,21 @@
 # python_docker
-
-python-docker Template
-
+A simple Python Docker to learn both.
 
 
-lignes commandes pour :
-### Git commands 
+
+## Docker
+#### Build & Launch 
+```bash
+docker-compose up --build -d
+```
+
+#### Bash on it
+```bash
+docker exec -it python_docker_1 bash
+```
+
+
+## Git commands 
 #### Create a new branch
 ``` bash
 git checkout -b branch_name
@@ -32,3 +42,5 @@ Merge using github
 ```bash
 git ckeckout main
 ```
+
+
