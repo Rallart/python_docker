@@ -11,7 +11,7 @@ docker-compose up --build -d
 
 #### Bash on it
 ```bash
-docker exec -it python_docker_1 bash
+docker exec -it python_docker_backend_1 bash
 ```
 
 
